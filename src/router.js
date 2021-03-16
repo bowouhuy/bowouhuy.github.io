@@ -12,8 +12,8 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
-      path: "/",
-      name: "index",
+      path: "/profile",
+      name: "profile",
       components: { default: Index, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
@@ -38,8 +38,8 @@ export default new Router({
       }
     },
     {
-      path: "/profile",
-      name: "profile",
+      path: "/",
+      name: "index",
       components: { default: Profile, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },

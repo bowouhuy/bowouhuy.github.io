@@ -18,20 +18,20 @@
                   />
                 </div>
                 <div class="name">
-                  <h3 class="title">Carla Hortensia</h3>
-                  <h6>Designer</h6>
+                  <h3 class="title">Wibowo</h3>
+                  <h6>Human with programming skills</h6>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://dribbble.com/bowouhuy"
                     class="md-just-icon md-simple md-dribbble"
                     ><i class="fab fa-dribbble"></i
                   ></md-button>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://twitter.com/bowouhuy"
                     class="md-just-icon md-simple md-twitter"
                     ><i class="fab fa-twitter"></i
                   ></md-button>
                   <md-button
-                    href="javascript:void(0)"
+                    href="https://id.pinterest.com/bowouhuuy"
                     class="md-just-icon md-simple md-pinterest"
                     ><i class="fab fa-pinterest"></i
                   ></md-button>
@@ -49,8 +49,8 @@
           </div>
           <div class="profile-tabs">
             <tabs
-              :tab-name="['Studio', 'Work', 'Favorite']"
-              :tab-icon="['camera', 'palette', 'favorite']"
+              :tab-name="['Study', 'Work', 'Favorite']"
+              :tab-icon="['school', 'work', 'favorite']"
               plain
               nav-pills-icons
               color-button="success"
@@ -140,7 +140,7 @@ export default {
     },
     img: {
       type: String,
-      default: require("@/assets/img/faces/christian.jpg")
+      default: require("@/assets/img/faces/bowouhuy.jpg")
     }
   },
   computed: {
